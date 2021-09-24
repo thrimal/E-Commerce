@@ -1,0 +1,76 @@
+.card-top{
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background: #fff;
+    background-clip: border-box;
+    border:1px solid rgba(0,0,0,0.2);
+    border-radius: 25rem;
+    top: 1.8cm;
+  z-index: 10;
+}
+
+.item img{
+    width: 50px;
+    height: 40px;
+}
+
+.item{
+    margin:auto;
+    align-items: center;
+    text-align: center;
+}
+
+.item a:hover{
+    color:red;
+}
+
+.item a:active{
+  background-color:limegreen;
+}
+
+.card{
+  position: relative;
+  padding-right: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  background: azure;
+  box-shadow: gray;
+  top: 5cm;
+  height: 12cm;
+}
+
+.card img{
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  transition: width 0.5s,height 0.5s ,transform 1s;
+}
+
+.card img:hover{
+  width: 250px;
+  height: 250px;
+}
+
+#qty{
+  position: relative;
+  width: 100px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#btnAdd{
+  border-radius: 30px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  width: 200px;
+  bottom: 10px;
+}
